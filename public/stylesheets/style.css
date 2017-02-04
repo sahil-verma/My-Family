@@ -1,6 +1,9 @@
 tr td a{
   text-decoration: none;
 }
+tr td a:hover{
+  text-decoration-color: green;
+}
 a:before {
   content: " | ";
 }
@@ -9,12 +12,6 @@ a[href="/Rajesh"]:before {
 }
 h1{
   text-align: center;
-}
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
 }
 
 
